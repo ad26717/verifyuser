@@ -1,0 +1,9 @@
+INIT adminusername
+INIT adminpassword
+PROMPT username
+READ username
+PROMPT password
+READ password
+IF username = adminusername && password = adminpassword
+ THEN DISPLAY Welcome username
+ ELSE DISPLAY 
